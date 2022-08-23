@@ -1,7 +1,7 @@
 {
-  "name": "grocery",
+  "name": "vuejs",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "node index.js",
     "serve": "vue-cli-service serve",
