@@ -1,10 +1,8 @@
-// vue.config.js
 
-/**
- * @type {import('@vue/cli-service').ProjectOptions}
- */
-module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/vue_project_webpage/'
-    : '/'
-}
+const { defineConfig } = require('@vue/cli-service')
+module.exports = defineConfig({
+  transpileDependencies: [
+    'vuetify'
+  ],
+  lintOnSave: false
+})
