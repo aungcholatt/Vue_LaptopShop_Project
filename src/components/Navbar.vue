@@ -15,7 +15,7 @@
       </v-avatar>
     </v-badge>
     <span class="grey--text d-none d-sm-flex"
-      > <strong>Myo Naing</strong></span
+      > <strong>Jhon</strong></span
     >
     <v-avatar size="30" class="ml-2">
       <v-img src="https://cdn.vuetifyjs.com/images/lists/2.jpg"></v-img>
